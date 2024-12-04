@@ -81,7 +81,7 @@ DATABASES = {
         'USER': 'purity',
         'PASSWORD': 'password',
         'HOST': 'localhost',
-        'PORT': ''
+        'PORT': '',
     }
 }
 
@@ -126,3 +126,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_HOSTS = ['localhost','.vercel.app']
